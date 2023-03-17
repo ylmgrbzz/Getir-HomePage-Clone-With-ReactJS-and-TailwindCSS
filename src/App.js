@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Header />
-      <Campaigns />
       <HeroSection />
       <Categories />
       <Campaigns />
