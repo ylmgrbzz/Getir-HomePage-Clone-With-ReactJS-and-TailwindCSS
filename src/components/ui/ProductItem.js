@@ -1,4 +1,4 @@
-import { FiPlus } from 'react-icons/fi';
+import { FiPlus } from "react-icons/fi";
 
 export default function ProductItem({ product }) {
     return (
@@ -11,5 +11,5 @@ export default function ProductItem({ product }) {
             <div className="text-gray-900">{product.title}</div>
             <div className="text-gray-500">{product.alt}</div>
         </div>
-    )
+    );
 }
